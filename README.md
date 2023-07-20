@@ -1,2 +1,2 @@
-# sh-learn
-shell Script Learn
+# DevOps-Learn
+DevOps Script Learn
