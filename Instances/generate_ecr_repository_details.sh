@@ -1,0 +1,1 @@
+ aws ecr describe-repositories --output json > repositories.json 
