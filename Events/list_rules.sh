@@ -1,0 +1,1 @@
+aws events list-rules > list-rules.json
