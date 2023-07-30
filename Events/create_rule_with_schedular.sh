@@ -1,0 +1,1 @@
+aws events put-rule --name "MyScheduledRule" --schedule-expression "cron(0 12 * * ? *)" --state "ENABLED"
