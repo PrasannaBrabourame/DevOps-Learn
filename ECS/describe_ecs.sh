@@ -1,0 +1,1 @@
+aws ecs describe-clusters --clusters "ecs-fwmc-prdezapp-mobilesvcs-cluster"
