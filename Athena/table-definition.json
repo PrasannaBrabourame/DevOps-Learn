@@ -1,0 +1,26 @@
+{
+    "Name": "your_table_name",
+    "TableType": "EXTERNAL_TABLE",
+    "Sd": {
+      "SerdeInfo": {
+        "SerializationLibrary": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+        "Parameters": {
+          "serialization.format": ","
+        }
+      },
+      "Columns": [
+        {
+          "Name": "column1_name",
+          "Type": "data_type"
+        },
+        {
+          "Name": "column2_name",
+          "Type": "data_type"
+        }
+      ],
+      "Location": "s3://your-bucket-name/path-to-your-csv-file/",
+      "InputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+      "OutputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat"
+    }
+  }
+  
