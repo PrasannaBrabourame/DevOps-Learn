@@ -1,0 +1,1 @@
+aws cloudwatch put-metric-data --namespace "MyNamespace" --metric-name "MyMetric" --value 42 --dimensions "Name=Environment,Value=Production"
