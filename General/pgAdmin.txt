@@ -1,0 +1,1 @@
+taskkill /im "pgAdmin4.exe" /F
