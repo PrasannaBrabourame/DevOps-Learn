@@ -1,0 +1,1 @@
+aws cloudtrail create-trail --name <trail-name> --s3-bucket-name <s3-bucket-name> [--options <options-json>] [--is-multi-region | --no-is-multi-region]
