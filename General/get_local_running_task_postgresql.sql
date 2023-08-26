@@ -1,0 +1,1 @@
+select pid,age(now(), backend_start)::varchar(20) "processtime",age(now(),query_start)::varchar(20) "querytime",age(now(),state_change)::varchar(17) "statechange", query::varchar(80) from pg_stat_activity where state='active' order by 4;
