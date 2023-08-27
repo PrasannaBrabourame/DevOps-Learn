@@ -1,0 +1,1 @@
+aws rds create-db-instance --db-instance-identifier <instance-name> --allocated-storage <storage-size> --db-instance-class <instance-type> --engine <db-engine> --master-username <username> --master-user-password <password>
